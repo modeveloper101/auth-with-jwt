@@ -1,0 +1,30 @@
+{
+  "name": "auth-with-jwt",
+  "version": "1.0.0",
+  "description": "A simple JWT based user authentication process",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modeveloper101/auth-with-jwt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modeveloper101/auth-with-jwt/issues"
+  },
+  "homepage": "https://github.com/modeveloper101/auth-with-jwt#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
