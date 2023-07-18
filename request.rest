@@ -6,7 +6,7 @@ POST http://localhost:3000/users
 Content-Type: application/json
 
 {
-    "name": "Moe",
+    "username": "Moe",
     "password": "admin"
 }
 
@@ -17,6 +17,12 @@ POST http://localhost:3000/login
 Content-Type: application/json
 
 {
-    "name": "Moe",
+    "username": "Moe",
     "password": "admin"
 }
+
+
+###
+
+GET http://localhost:3000/blogs
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1vZSIsInBhc3N3b3JkIjoiJDJiJDEwJGpMeWJ5clNPNUVqQ0h0d1UySGZhSk91d21UNnlsSS9PNWQuRmZhVC9QS1V6Zmo1MFBnRC9TIiwiaWF0IjoxNjg5NjY5Mjk2fQ.guyeIqpasD6a6WziwlDTqaGc3yoGIVXv6zA9F53NjC8
